@@ -1,0 +1,19 @@
+/* Áp dụng font Jost cho toàn bộ trang web */
+html,
+body {
+  font-family: "Jost", sans-serif;
+  color: #696969; /* Màu chữ xám mặc định của bản mẫu */
+  background-color: #fff;
+}
+
+/* Các thẻ tiêu đề sẽ dùng font Jost với nét chữ đậm hơn */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+  color: #2c3038; /* Màu tiêu đề đậm của bản mẫu */
+  font-weight: 700;
+}
