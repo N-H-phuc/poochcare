@@ -317,7 +317,7 @@ ul {
        BANNER BREADCRUMB
        ========================================== */
 .w3l-breadcrumb {
-  background-image: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner4.jpg);
+  background-image: url(../img/banner4.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
