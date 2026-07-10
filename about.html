@@ -5,21 +5,635 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poochcare</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>About page – Poochcare Animals and pets</title>
 
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- BS - CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- font-awesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- thư viện CSS.gg -->
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/all.css" rel="stylesheet">
+
+    <!-- Owl carousel - CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- thư viện Magnifit Popup - CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- main CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
+    <header class="main-header header_aboutUs fixed-top">
+        <div class="menu-overlay">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg align-items-center">
+                    <!-- Logo -->
+                    <h1>
+                        <a class="navbar-brand" href="#">Pooch Care</a>
+                    </h1>
+
+                    <!-- Right Mobile -->
+                    <div class="mobile-position d-lg-none">
+                        <!-- Moon -->
+                        <a href="#" class="theme-switch">
+                            <i class="gg-moon"></i>
+                        </a>
+                        <!-- Toggle -->
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar_Content" aria-controls="navbar_Content" aria-expanded="false">
+                            <span class="icon-open">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                            <span class="icon-close">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </button>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse" id="navbar_Content">
+                        <ul class="navbar-nav btnMenu">
+                            <li class=" nav-item ">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item menu-item-3">
+                                <a class="nav-link" href="./ services.html">Services</a>
+                            </li>
+                            <li class="nav-item menu-item-4">
+                                <a class="nav-link" href="./gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item dropdown menu-item-has-children">
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                                    <li><a class="dropdown-item" href="#">Landing page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item menu-item-6">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                        <!-- Search Mobile -->
+                        <div class="mobile-search d-lg-none">
+                            <a href="#" class="btnSearch">
+                                <span class="fa fa-search"></span>
+                            </a>
+                        </div>
+
+                        <!-- Desktop Right -->
+                        <ul class="navbar-nav desktop-right d-none d-lg-flex align-items-center">
+                            <li class="nav-item">
+                                <a href="#" class="btnSearch">
+                                    <span class="fa fa-search"></span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="theme-switch">
+                                    <i class="gg-moon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="breadcrumb text-center">
+        <div class="breadcrumb_bg py-sm-5 py-4">
+            <div class="container py-2">
+                <h2 class="titleAboutBanner">About Us</h2>
+                <nav class="breadcrumbs_link mt-2">
+                    <a href="./index.html" rel="nofollow">
+                        Home
+                    </a>
+                    &nbsp;
+                    »
+                    &nbsp;
+                    About page
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="contentAbout">
+        <div class="content-overlay py-5">
+            <div class="container py-lg-5">
+                <div class="mainContExp row align-items-center">
+                    <div class="content_exp col-lg-5 ps-lg-4">
+                        <div class="topTittle_exp text-left mb-2">
+                            <h6 class="sub_title">About Us </h6>
+                            <h3 class="big_title">We have 10+ years of experience. </h3>
+                        </div>
+                        <h4>Let Us Take Care Of Your Pets!</h4>
+                    </div>
+
+                    <div class="content_exp col-lg-7 ps-lg-4 ps-lg-5 mt-lg-0 mt-md-5 mt-4">
+                        <p>Lorem ipsum dolor sit amet,Ea consequuntur .Ea consequuntur illum facere aperiam sequi optio
+                            consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis </p>
+
+                        <p class="mt-3 mb-3">
+                            Lorem ipsum dolor sit amet,Ea consequuntur illum
+                            facere aperiam sequi optio consectetur adipisicing elit. Fuga, suscipit totam animi
+                            consequatur saepe blanditiis.
+                        </p>
+
+                        <a href="services" class="read">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="history">
+        <div class="history-overlay py-5">
+            <div class="container py-lg-5">
+                <div class="history_content py-lg-3">
+                    <h4 class="sub_title">Our history of Pooch Care </h4>
+
+                    <h3 class="big_title tittleHis">Our history </h3>
+
+                    <p class="mt-3">
+                        Lorem ipsum dolor sit amet,Ea consequuntur .Ea consequuntur illum facere aperiam
+                        sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe
+                        blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                        consectetur adipisicing elit.
+                    </p>
+
+                    <div class="history-grids">
+
+                        <div class="history-info">
+                            <h5 class="year">2017 </h5>
+                            <p>Lorem ipsum dolor sit amet </p>
+                        </div>
+
+                        <div class="history-info">
+                            <h5 class="year">2018 </h5>
+                            <p>Lorem ipsum dolor sit amet </p>
+                        </div>
+
+                        <div class="history-info">
+                            <h5 class="year">2019 </h5>
+                            <p>Lorem ipsum dolor sit amet </p>
+                        </div>
+
+                        <div class="history-info">
+                            <h5 class="year">2020 </h5>
+                            <p>Lorem ipsum dolor sit amet </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reasonAbout">
+        <div class="reasonAbout_overlay py-5">
+            <div class="container py-lg-4">
+                <div class="content_reasonAbout row">
+                    <div class="contentAbout_left col-lg-6 pe-lg-4 text-lg-end">
+                        <h6 class="sub_title">Who we are</h6>
+
+                        <h3 class="big_title">Why Choose Us</h3>
+
+                        <p class="mt-3">
+                            Phasellus lacinia id erat eu
+                            ullamcorper. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                            culpa quis. Phasellus lacinia
+                        </p>
+
+                        <img src="./img/banner3.jpg" class="img-fluid mt-3" alt="" />
+                    </div>
+
+                    <div class="contentAbout_right col-lg-6 ps-lg-4">
+                        <div class="grid_right row mb-lg-5 mb-4">
+                            <div class="col-md-2 right_contentIcon">
+                                <div class="right_icon">
+                                    <i class="fa-solid fa-hands-asl-interpreting"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 right_contentText">
+                                <h6>
+                                    <a href="#url">Care Advices</a>
+                                </h6>
+
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="grid_right row mb-lg-5 mb-4">
+                            <div class="col-md-2 right_contentIcon">
+                                <div class="right_icon">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 right_contentText">
+                                <h6>
+                                    <a href="#url">Emergency Services</a>
+                                </h6>
+
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="grid_right row mb-lg-5 mb-4">
+                            <div class="col-md-2 right_contentIcon">
+                                <div class="right_icon">
+                                    <i class="fa-solid fa-headphones"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 right_contentText">
+                                <h6>
+                                    <a href="#url">Customer Supports</a>
+                                </h6>
+
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="grid_right row">
+                            <div class="col-md-2 right_contentIcon">
+                                <div class="right_icon">
+                                    <i class="fa-solid fa-user-doctor"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 right_contentText">
+                                <h6>
+                                    <a href="#url">Veterinary Help</a>
+                                </h6>
+
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experts">
+        <div class="experts_overlay py-5">
+            <div class="container py-lg-4">
+                <div class="tittle_experts text-center mb-lg-5 mb-4">
+                    <h6 class="sub_title">Our Experts</h6>
+                    <h3 class="big_title">Our Team</h3>
+                </div>
+
+                <div class="expertsTeam_row row justify-content-center">
+                    <div class="col-lg-3 col-6 grid_experts">
+                        <div class="team_info text-center">
+                            <div class="column_team position-relative">
+                                <a href="#url">
+                                    <img src="./img/team1.jpg" class="img-fluid team_image" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="column_team">
+                                <h3 class="name_client">
+                                    <a href="#url">Micheal Wagou</a>
+                                </h3>
+
+                                <p>Training </p>
+
+                                <div class="social_client">
+                                    <div class="icon_bottom">
+                                        <a href="https://www.facebook.com/w3layouts/" class="facebook">
+                                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://twitter.com/W3layouts" class="twitter">
+                                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://in.linkedin.com/company/w3layouts">
+                                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 grid_experts">
+                        <div class="team_info text-center">
+                            <div class="column_team position-relative">
+                                <a href="#url">
+                                    <img src="./img/team2.jpg" class="img-fluid team_image" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="column_team">
+                                <h3 class="name_client">
+                                    <a href="#url">Alex Mitchell</a>
+                                </h3>
+
+                                <p>Boarding</p>
+
+                                <div class="social_client">
+                                    <div class="icon_bottom">
+                                        <a href="https://www.facebook.com/w3layouts/" class="facebook">
+                                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://twitter.com/W3layouts" class="twitter">
+                                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://in.linkedin.com/company/w3layouts">
+                                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 grid_experts">
+                        <div class="team_info text-center">
+                            <div class="column_team position-relative">
+                                <a href="#url">
+                                    <img src="./img/team3.jpg" class="img-fluid team_image" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="column_team">
+                                <h3 class="name_client">
+                                    <a href="#url">Scott Colon</a>
+                                </h3>
+
+                                <p>Grooming</p>
+
+                                <div class="social_client">
+                                    <div class="icon_bottom">
+                                        <a href="https://www.facebook.com/w3layouts/" class="facebook">
+                                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://twitter.com/W3layouts" class="twitter">
+                                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://in.linkedin.com/company/w3layouts">
+                                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 grid_experts">
+                        <div class="team_info text-center">
+                            <div class="column_team position-relative">
+                                <a href="#url">
+                                    <img src="./img/team4.jpg" class="img-fluid team_image" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="column_team">
+                                <h3 class="name_client">
+                                    <a href="#url">John Harris</a>
+                                </h3>
+
+                                <p>Doggie Day Care</p>
+
+                                <div class="social_client">
+                                    <div class="icon_bottom">
+                                        <a href="https://www.facebook.com/w3layouts/" class="facebook">
+                                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://twitter.com/W3layouts" class="twitter">
+                                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                        </a>
+
+                                        <a href="https://in.linkedin.com/company/w3layouts">
+                                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bg-layer">
+            <div class="container py-lg-3">
+                <div class="row footer_top">
+                    <div class="col-lg-6 col-md-5 list_left mt-5">
+                        <h6 class="big_titleFooter">Contact information</h6>
+                        <ul class="contact_rightTop">
+                            <li>
+                                <p>
+                                    <strong>Address</strong>
+                                    : #135 block, Barnard St. Brooklyn, London 10036, UK
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <strong>Phone</strong>
+                                    :
+                                    <a href="tel:+(12)234-11-24">+(12)234-11-24</a>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <strong>Email</strong>
+                                    :
+                                    <a href="mailto:example@mail.com">example@mail.com</a>
+                                </p>
+                            </li>
+                        </ul>
+
+                        <div class="social_footer mt-3">
+                            <ul class="social_icons">
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/w3layouts/" title="Facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+
+                                <li class="twitter">
+                                    <a href="https://x.com/W3layouts" title="Twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li class="dribbble">
+                                    <a href="https://dribbble.com/w3layouts" title="Dribbble">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </li>
+
+                                <li class="google">
+                                    <a href="https://myaccount.google.com/profile" title="Google">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-7 list_right">
+                        <div class="row contentFoot_right">
+                            <div class="col-sm-4 col-6 list_left mt-5">
+                                <div class="rightArchives">
+                                    <h6 class="big_titleFooter">Archives</h6>
+                                    <ul class="botTittle_right">
+                                        <li>
+                                            <a href="https://wp.w3layouts.com/poochcare/2020/12/">
+                                                December 2020
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-6 list_left mt-5">
+                                <div class="rightCategories">
+                                    <h6 class="big_titleFooter">Categories</h6>
+                                    <ul class="botTittle_right">
+                                        <li class="cat-item cat-item-5">
+                                            <a href="https://wp.w3layouts.com/poochcare/category/animals/">
+                                                Animals
+                                            </a>
+                                        </li>
+
+                                        <li class="cat-item cat-item-3">
+                                            <a href="https://wp.w3layouts.com/poochcare/category/pets/">
+                                                Pets
+                                            </a>
+                                        </li>
+
+                                        <li class="cat-item cat-item-4">
+                                            <a href="https://wp.w3layouts.com/poochcare/category/pets-care/">
+                                                Pets care
+                                            </a>
+                                        </li>
+
+                                        <li class="cat-item cat-item-1">
+                                            <a href="https://wp.w3layouts.com/poochcare/category/uncategorized/">
+                                                Uncategorized
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-6 list_left mt-5">
+                                <div class="rightMeta">
+                                    <h6 class="big_titleFooter">Meta</h6>
+                                    <ul class="botTittle_right">
+                                        <li>
+                                            <a href="https://wp.w3layouts.com/poochcare/wp-login.php">
+                                                Log in
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://wp.w3layouts.com/poochcare/feed/">
+                                                Entries feed
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://wp.w3layouts.com/poochcare/comments/feed/">
+                                                Comments feed
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://wordpress.org/">
+                                                WordPress.org
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid_footer align-self-center py-lg-4 py-3 mt-5">
+                <div class="container coppyRight">
+                    <p class="copyRight_bottom text-center">
+                        © 2026 All Rights Reserved by
+                        <a href="https://w3layouts.com/">
+                            W3Layouts.
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back_to_top cd-top text-replace js-cd-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+
+    <!-- BS - JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+
+    <!-- thư viện jQuery - js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- plugin jQuery Waypoint  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+    <!-- thư viện OWL CAROUSEL - JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- hiệu ứng back to top - JS (gồm 2 file) -->
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script>
 </body>
 
 </html>
