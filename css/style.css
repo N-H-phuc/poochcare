@@ -356,6 +356,10 @@ a.dropdown-item:hover::before {
   text-align: left !important;
 }
 
+.banner-info-bg.ml-lg-auto {
+  margin-left: 450px !important;
+}
+
 .myCarousel .banner-info-bg h5 {
   font-size: 66px;
   line-height: 76px;
